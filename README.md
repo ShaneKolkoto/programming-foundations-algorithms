@@ -5,12 +5,12 @@
 1. [What is an Algorithm? ](#introduction)
 2. [Algorithm Characteristics](#Characteristics)
 
-- [Complexity](#complexity)
-- [Inputs and Outputs](#inputs_outputs)
-- [Classifications](#classifications)
-  - [Serial/Parrallel](#serial_parrallel)
-  - [Exact/Approximate](#exact_approximate)
-  - [Deterministic/Non-deterministic](#deterministic_non-deterministicl)
+   - [Complexity](#complexity)
+   - [Inputs and Outputs](#inputs_outputs)
+   - [Classifications](#classifications)
+     - [Serial/Parrallel](#serial_parrallel)
+     - [Exact/Approximate](#exact_approximate)
+     - [Deterministic/Non-deterministic](#deterministic_non-deterministicl)
 
 3. [Comman Algorithms](#comman)
 
