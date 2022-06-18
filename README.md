@@ -57,14 +57,14 @@
 2.  <b>Exact/Approximate</b><br>
 3.  <b>Deterministic/Non-deterministic</b> <br>
 
-<p name="serial/parrallel">
+<p name="serial_parrallel">
 
 ### Serial / Parrallel
 
 - <b>Serial</b>: A sequential algorithm or serial algorithm is an algorithm that is executed sequentially – once through, from start to finish,without other processing executing.<br> - <b>Parrallel</b>: Is an algorithm which can do multiple operations in a given time.
 </p> <br>
 
-<p name="exact/approximate">
+<p name="exact_approximate">
 
 ### Exact / Approximate
 
@@ -73,7 +73,7 @@
 
 </p><br>
 
-<p name="deterministic/non-deterministic">
+<p name="deterministic_non-deterministic">
 
 ### Deterministic / Non-deterministice
 
