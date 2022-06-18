@@ -23,11 +23,14 @@
 5. [Understanding Algorithm Performance](#understanding)
 6. [Acknowledgements](#acknowledgements)
 
+<p name="introduction">
+
 # What is an Algorithm
 
-> <p name="introduction">
 > A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.
 > "a basic algorithm for division"</p>
+
+<p name="characteristics">
 
 # Characteristics
 
@@ -71,12 +74,12 @@
     - <b>Deterministic</b>: eterministic algorithm is an algorithm that, given a particular input, will always produce the same output, with the underlying machine always passing through the same sequence of states.<br>
     - <b>Non-deterministic</b>: ondeterministic algorithm is an algorithm that, even for the same input, can exhibit different behaviors on different runs.
 </p>
-
 </p>
+
+<p name="comman">
 
 # Comman Algorithms
 
-<p name="comman">
 1.  <b>Search</b><br>
 2.  <b>Sorting</b><br>
 3.  <b>Computatinal</b><br>
@@ -107,10 +110,11 @@ Find specific data in a structure (for example, a substring with a string).
 </p>
 </p>
 
+<p name="exercise1">
+
 # Exercise
 
-<p name="exercise1">
-Find the greatest common denominator (GCD) of two integers, Using the Euclid's Algorithm, <b>Try to not look at the gcd_start.py file</b>.
+> Find the greatest common denominator (GCD) of two integers, Using the Euclid's Algorithm, <b>Try to not look at the gcd_start.py file</b>.
 
 _Example_
 
@@ -121,6 +125,8 @@ GCD of 20 and 8 is 4
 2.  If the remainder, <b>R</b>, is 0, then stop: GCD is <b>num2</b>.
 3.  Otherwise, set <b>num1</b> to <b>num2</b>, <b>num2</b> to <b>R</b>, and repeat at step 1 until <b>R</b> is 0
 </p>
+
+<p name="understanding">
 
 # Understanding Algorithm Performance
 
@@ -141,8 +147,13 @@ GCD of 20 and 8 is 4
 | 0(n log n)                                                     | Log-linear    | Complex sorting algorithms like heap sort and merge sort.                          |
 | 0(n<span style="vertical-align:super;font-size:50%;">2</span>) | Quadratic     | Simple sorting algorithms, such as bubble sort, selection sort, and insertion sort |
 
-## Acknowledgements
+</p>
+
+<p name="acknowledgements">
+
+# Acknowledgements
 
 - [Joe Marini](https://www.linkedin.com/in/joemarini) (Linkdin Profile)
   - [@Joe Marini](https://github.com/joemarini) (Github Profile)
 - [Linkdin Course](https://www.linkedin.com/learning/programming-foundations-algorithms) - programming-foundations-algorithms
+</p>
