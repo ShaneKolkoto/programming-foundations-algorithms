@@ -41,38 +41,45 @@
 >    - <b>Time complexity</b>: How much time does it take to complete?
 > </p>
 
+<p name="inputs_outputs">
+
 ### Inputs and Outputs
 
-> <p name="inputs_outputs">
 > What does the algorithm accept, and what are the results?
-> </p>
+
+</p>
+
+<p name="classifications">
 
 # Classifications
 
-<p name="classifications">
 1.  <b>Serial/Parrallel </b><br>
 2.  <b>Exact/Approximate</b><br>
 3.  <b>Deterministic/Non-deterministic</b> <br>
 
+<p name="serial/parrallel">
+
 ### Serial / Parrallel
 
-<p name="serial/parrallel">
-- <b>Serial</b>: A sequential algorithm or serial algorithm is an algorithm that is executed sequentially – once through, from start to finish,without other processing executing.<br>
-    - <b>Parrallel</b>: Is an algorithm which can do multiple operations in a given time.
+- <b>Serial</b>: A sequential algorithm or serial algorithm is an algorithm that is executed sequentially – once through, from start to finish,without other processing executing.<br> - <b>Parrallel</b>: Is an algorithm which can do multiple operations in a given time.
 </p> <br>
+
+<p name="exact/approximate">
 
 ### Exact / Approximate
 
-<p name="exact/approximate">
-    - <b>Exact</b>: Exact algorithms are algorithms that always find the optimal solution to a given optimization problem.<br>
-    - <b>Approximate</b>: This technique does not guarantee the best solution. The goal of the approximation algorithm is to come as close as possible to the optimal solution in polynomial time.
+- <b>Exact</b>: Exact algorithms are algorithms that always find the optimal solution to a given optimization problem.<br>
+- <b>Approximate</b>: This technique does not guarantee the best solution. The goal of the approximation algorithm is to come as close as possible to the optimal solution in polynomial time.
+
 </p><br>
+
+<p name="deterministic/non-deterministic">
 
 ### Deterministic / Non-deterministice
 
-<p name="deterministic/non-deterministic">
-    - <b>Deterministic</b>: eterministic algorithm is an algorithm that, given a particular input, will always produce the same output, with the underlying machine always passing through the same sequence of states.<br>
-    - <b>Non-deterministic</b>: ondeterministic algorithm is an algorithm that, even for the same input, can exhibit different behaviors on different runs.
+- <b>Deterministic</b>: eterministic algorithm is an algorithm that, given a particular input, will always produce the same output, with the underlying machine always passing through the same sequence of states.<br>
+- <b>Non-deterministic</b>: ondeterministic algorithm is an algorithm that, even for the same input, can exhibit different behaviors on different runs.
+
 </p>
 </p>
 
@@ -85,28 +92,36 @@
 3.  <b>Computatinal</b><br>
 4.  <b>Collection</b><br>
 
+<p name="search">
+
 ### Search
 
-<p name="search">
-Find specific data in a structure (for example, a substring with a string).
+> Find specific data in a structure (for example, a substring with a string).
+
 </p>
+
+<p name="sorting">
 
 ### Sorting
 
-<p name="sorting">
-    Take a dataset and apply a sort order to it.
+> Take a dataset and apply a sort order to it.
+
 </p>
+
+<p name="computatinal">
 
 ### Computatinal
 
-<p name="computatinal">
-    Given one set of data, calculate another (is given number prime?).
+> Given one set of data, calculate another (is given number prime?).
+
 </p>
+
+<p name="collection">
 
 ### Collection
 
-<p name="collection">
-    Work with collection of data (count specific items, navigate among data elements, filter out unwanted data, etc.).
+> Work with collection of data (count specific items, navigate among data elements, filter out unwanted data, etc.).
+
 </p>
 </p>
 
