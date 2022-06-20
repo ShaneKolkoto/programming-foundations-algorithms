@@ -25,7 +25,8 @@
 
 4. [Exercise](#exercise1)
 5. [Understanding Algorithm Performance](#understanding)
-6. [Acknowledgements](#acknowledgements)
+6. [Data Structure](#structure)
+7. [Acknowledgements](#acknowledgements)
 
 <p name="introduction">
 
@@ -177,7 +178,7 @@ GCD of 20 and 8 is 4
 ## Common Data Structures
 
 1. [Arrays](#arrays)
-2. [Linked lists](#lists) - **exercise in linklist_start.py**
+2. [Linked lists](#linked) - **exercise in linklist_start.py**
 3. [Stacks and queues](#stack) - **exercise in stack_start.py and queue_start.py**
 4. [Tress](#tress)
 5. [Hash tables](#hash) - **exercise in hashtable_start.py**
@@ -261,7 +262,7 @@ GCD of 20 and 8 is 4
 
 </p>
 
-<p name="trees">
+<p name="tress">
 
 ## Tress
 
