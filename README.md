@@ -1,5 +1,9 @@
 # Algorithms
 
+## Tools required
+
+<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
+
 # Table of contents
 
 1. [What is an Algorithm? ](#introduction)
@@ -161,6 +165,131 @@ GCD of 20 and 8 is 4
 | 0(n)                                                           | Linear time   | Searching an unsorted array for a specfic value                                    |
 | 0(n log n)                                                     | Log-linear    | Complex sorting algorithms like heap sort and merge sort.                          |
 | 0(n<span style="vertical-align:super;font-size:50%;">2</span>) | Quadratic     | Simple sorting algorithms, such as bubble sort, selection sort, and insertion sort |
+
+</p>
+
+<p name="structure">
+
+# Data Structure
+
+> Used to organize data so it can be processed
+
+## Common Data Structures
+
+1. [Arrays](#arrays)
+2. [Linked lists](#lists) - **exercise in linklist_start.py**
+3. [Stacks and queues](#stack) - **exercise in stack_start.py and queue_start.py**
+4. [Tress](#tress)
+5. [Hash tables](#hash) - **exercise in hashtable_start.py**
+
+<p name="arrays">
+
+## Arrays
+
+<hr>
+
+> - Collection of elements identified by index or key
+> - Arrays starts at <b>0</b> for its <b>first element</b>
+
+## Linar form array
+
+| Elements | Function                                     | Output                               |
+| -------- | -------------------------------------------- | ------------------------------------ |
+| (elem 1) | even_ele = array[2n] (Get all even elements) | `n` is the number you want to access |
+| (elem 2) |                                              |                                      |
+| (elem 3) |                                              | will show cause its element 2        |
+| (elem 4) |                                              |                                      |
+| (elem 5) |                                              | will show cause its element 4        |
+
+</p>
+
+## Two-dimensinal Arrays
+
+- Needs two indexs
+
+**Example** <br>
+
+> Lets get the third element we will need the 2nd element cause element 1 is 0 index, 1 indicates which cloumn to access.
+
+| Elements |     | Indexs |
+| -------- | --- | ------ |
+| (elem 1) |     |        |
+| (elem 2) |     |        |
+| (elem 3) |     | (2, 1) |
+| (elem 4) |     |        |
+| (elem 5) |     |        |
+
+</p>
+<hr>
+
+## Array Operations
+
+1. Calculate item index: 0(1)
+2. Insert or delete item at beginning: 0(n),
+3. Insert or delete item in middle: 0(n),
+4. Insert or delete item at end: 0(1)
+</p>
+<hr>
+
+<p name="linked">
+
+## Linked Lists
+
+- Collection of data elements, called nodes.
+- Contains refernece to the nex node in the list.
+- Hold whatever data the application needs.
+
+</p>
+
+<p name="stack">
+
+## Stacks and Queues
+
+### Stacks
+
+> - Collection of elements that supports push and pop operations.
+> - The last item pushed is the first one popped.
+> - Expression processing
+> - Backtracking: browser back stack, for example (back button on browser)
+
+### Queues
+
+> - Collection that supports adding and removing
+> - First item added is the first item
+> - Order processing
+> - Messaging
+
+</p>
+
+<p name="trees">
+
+## Tress
+
+> The way you construct your folders or even files
+
+**Example**
+
+```
+Main Folder
+    └── sub-folder1
+            └── file.txt
+            └── file.py
+    └── sub-folder2
+            └── file.html
+            └── file.css
+            └── file.js
+```
+
+</p>
+
+<p name="hash">
+
+## Hash Tables
+
+> - Key-to-calue mappings are unique.
+> - Hash tables are typically very fast.
+> - For small datasets, arrays are usally more efficient
+> - Hash tables dont order entries in a predicatable table
 
 </p>
 
