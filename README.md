@@ -26,7 +26,8 @@
 4. [Exercise](#exercise1)
 5. [Understanding Algorithm Performance](#understanding)
 6. [Data Structure](#structure)
-7. [Acknowledgements](#acknowledgements)
+7. [Recursion](#recursion)
+8. [Acknowledgements](#acknowledgements)
 
 <p name="introduction">
 
@@ -291,6 +292,90 @@ Main Folder
 > - Hash tables are typically very fast.
 > - For small datasets, arrays are usally more efficient
 > - Hash tables dont order entries in a predicatable table
+
+</p>
+
+<p name="recursion">
+
+# Recursion
+
+> - Recursion is when a fuction calls itself.
+
+**Example**
+Lets say your program had to find a pirtucluar file that is nestle somewhere in a set of directories, and your program doesnt know how many directories there are.
+
+```
+Main Folder 1
+    └── sub-folder1
+            └── file.txt
+            └── file.py
+    └── sub-folder2
+            └── file.html
+            └── file.css
+            └── file.js
+Main Folder 2
+```
+
+**Question?**
+So What algothrim would you use to search for a file?
+
+**Secnorio**
+
+> **_Repat this until you find the file._**
+
+```
+Make a list of directory items
+        |
+While the list is not empty
+        |
+Get an item
+        |
+    File or dir? ── Done
+        |
+        |   if Dir
+        |
+        |
+Add contents to the list
+
+<!-- Next step -->
+
+Examine every directory item
+|       |
+|  Dir  | File
+|       |
+|____ Dir ____ Done
+
+
+```
+
+## Import things to remember about recursion
+
+> - Recursive fuction need to have a breaking condition.
+> - This prevents infinite loops and eventual crashes.
+> - Each time the fuction is called, the old arguments are saced.
+
+- This is called the "call stack" (This is used by a stack data structure).
+
+_**Example Breaking Condition function**_
+
+> Function to print a countdown of numbers starting with initial number, the function checks to see if the argument <b>x</b> is equal to 0. Otherwise it prints the number and then calls itself with the current number minus 1.
+
+```ruby
+function countdown(x){
+        if (x == 0)
+        print("done!")
+        return
+        else
+        print(x, "...")
+        countdown(x-1)
+}
+countdown(4)
+```
+
+## Exercise
+
+1. Use the recursion to implement a countdown counter (project can be found in countdown_start.py)
+2. Using recursion to implement power and factorial functions (project can be found in recursion_start.py)
 
 </p>
 
