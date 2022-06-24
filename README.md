@@ -379,7 +379,150 @@ countdown(4)
 
 </p>
 
-<p name="acknowledgements">
+<p name="sorting">
+
+# Sorting
+
+> To help make sense of the data and can be sorted in variity of ways.
+
+_Example_
+
+> A real estate agency needs sort the data so the app can work on the informatioin sufficiently.
+
+| Elements  |     | Prices   |
+| --------- | --- | -------- |
+| (house 2) |     | R365,000 |
+| (house 3) |     | R369,000 |
+| (house 4) |     | R371,000 |
+
+- The user might not want it to be sorted by price level, but if the do want it sorted by max-price it will sort the data
+- The app needs to sort the data internal, to limit the amount of additinal information.
+
+### Big O charactritic of the Sorting
+
+> Most modern languages have sorting built in
+
+## Sorting algorthims
+
+- Bubble sort (Basic algorthim used as a teaching tool)
+- Merge sort (uses of recursion)
+- Quicksort (also uses recursion)
+
+## Bubble Sort
+
+_Example_
+Suppose you have an array of numbers as below
+
+| 23         | 8          | 15     | 17     | 4      | 40     | 11     | 31     |
+| ---------- | ---------- | ------ | ------ | ------ | ------ | ------ | ------ |
+| **elem 1** | **elem 2** | elem 3 | elem 4 | elem 5 | elem 6 | elem 7 | elem 8 |
+
+> The Bubble sort starts off by comparing the first two elements to see which of the two is larger, if the first element is larger than the second it will swip the two
+
+| 8          | 23         | 15     | 17     | 4      | 40     | 11     | 31     |
+| ---------- | ---------- | ------ | ------ | ------ | ------ | ------ | ------ |
+| **elem 1** | **elem 2** | elem 3 | elem 4 | elem 5 | elem 6 | elem 7 | elem 8 |
+
+> The proccess continues until it examains all the numbers in the array and sorts them all
+
+# Charactaristics
+
+- Very simple to understand and implement
+- Performance: O(n<span style="vertical-align:super;font-size:50%;">2</span>)
+  - For loops inside of for loops are usally n<span style="vertical-align:super;font-size:50%;">2</span>.
+- Other sorting algorithms are generally much better
+- Not considered to be a practical solution.
+
+**Exercise**
+
+> With a given list of items use the bubble sort methond to sort the list. _Can be found in bubble_start.py_
+
+| 6   | 20  | 8   | 19  | 56  | 23  | 87  | 41  | 49  | 53  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+</p>
+
+<p name="merge">
+
+# Merge Sort
+
+> - The merge sort is known as a divide and conquer algorithm.
+> - Breaks a dataset into individual pieces and merges them.
+> - Uses recursion to operate on datasets.
+> - Performs well on large sets of data.
+> - In general has a performance of O(n log n) time complexity. (Log Linear)
+
+## How it works
+
+> The key is how to merge two sorted arrays together
+
+**Example**
+
+> Lets say you got two arrays. and you need to merge them into one and keep them sorted.
+
+| Array 1      |     | Array 2 |
+| ------------ | --- | ------- |
+| [12, 19, 31] |     | [4, 23] |
+
+> - We start with the first elements from the two arrays. in the case the 4 is smaller than the 12 so 4 gets inserted into the array.
+> - it checks the second element of array 2, and compares it to the first element of array 1, in this case 12 is smaller than 23. so 12 gets inserted into array.
+> - It checks the next element in array one to find and compare elements until all elment are compared and the lists are sorted.
+
+**Exercise**
+
+> Given the array below, use the merge sort algorthim.
+
+| 6   | 20  | 8   | 19  | 56  | 23  | 87  | 41  | 49  | 53  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+</p>
+
+<p name="quick">
+
+# QuickSort
+
+> - The quicksort is conquer algorithm, like the merge sort.
+> - Also uses recursion to perform sorting.
+> - Generally performs better than merge sort, O(n log n).
+> - Operates in place on the data. (Dont need extra memory to do its work)
+> - Worst case is O(n<span style="vertical-align:super;font-size:50%;">2</span>) when data is mostly sorted already.
+
+## Pivot Point
+
+> One of the main fetures on quicksort.
+
+**Example**
+Lets say you have an array as below
+
+| 20  | 6   | 8   | 19  | 56  | 23  | 87  | 41  | 49  | 53  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+- Lets take the **first element** (20) this becomes the pivot value
+- We start the process of partitioning the list.
+
+  > Main purpose of partitioning process is to move items that are on the wrong side of the pivot value and figure out the point at which to split the array, so we can recursivly do this again.
+
+- We have two indexs the lower index(6) and upper index(87).
+
+  > So you start with the lower index as long as it is less than the upper index, until we find a value latger than the pivot value.
+
+- If point point is larger than index we stop,
+- On the right side we decrement this index until we find a value that is less than the pivot and upper index is greater than lower index.
+- We the indexs cross each other thats known as the split point, where we going to split the array.
+- At split point we will excahnge the pivot value with the upper index.
+
+**Exercise**
+With given array, use the quicksort method and find the crossing point using the first element as your pivot point
+
+| 20  | 6   | 8   | 53  | 56  | 23  | 87  | 41  | 49  | 53  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+> Task can be found in quick_start.py
+
+</p>
+
+<p 
+name="acknowledgements">
 
 # Acknowledgements
 
